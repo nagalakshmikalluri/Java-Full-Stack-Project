@@ -34,4 +34,23 @@ The platform allows job seekers to register, log in, and apply for jobs, while e
 ---
 
 ## 🗂️ Project Structure
-
+Java-Full-Stack-Project/
+│
+├── backend/ # Spring Boot backend
+│ ├── src/main/java/com/jobportal/backend/
+│ │ ├── controller/ # REST Controllers
+│ │ ├── config/ # Security & JWT Configuration
+│ │ ├── model/ # Entity Classes
+│ │ ├── repository/ # JPA Repositories
+│ │ └── dto/ # Data Transfer Objects
+│ └── resources/
+│ └── application.properties
+│
+├── client/ # React frontend
+│ ├── src/
+│ │ ├── pages/ # React pages (Login, Register, Jobs, etc.)
+│ │ ├── services/ # Axios API setup
+│ │ └── App.jsx
+│ └── vite.config.js
+│
+└── README.md
